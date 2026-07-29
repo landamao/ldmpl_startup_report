@@ -1,6 +1,7 @@
 # 启动报告 (Startup Report)
 
 > ldmbot 启动完成后自动发送启动报告，支持框架发送和 NapCat HTTP API 直发双通道。
+>
 > 本插件仅兼容[ldmbot](https://github.com/landamao/ldm_AstrBot) 版本v4.26.27以上
 
 ## 功能
