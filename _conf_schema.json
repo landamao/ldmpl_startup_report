@@ -1,0 +1,46 @@
+{
+  "send_target": {
+    "description": "发送目标",
+    "type": "string",
+    "options": ["群聊", "私聊"],
+    "default": "群聊",
+    "hint": "启动报告发到群还是私聊"
+  },
+  "target_id": {
+    "description": "目标ID",
+    "type": "string",
+    "default": "",
+    "hint": "群号或QQ号，重启时自动记录群ID"
+  },
+  "message_template": {
+    "description": "消息模板",
+    "type": "text",
+    "default": "ldmbot 启动完成！\n时间：{time}\n状态：运行中 ✓\n{restart}",
+    "hint": "支持 {time} {date} {restart}"
+  },
+  "delay_seconds": {
+    "description": "延迟发送",
+    "type": "int",
+    "slider": {"min": 0, "max": 60, "step": 1},
+    "default": 0,
+    "hint": "启动后延迟几秒发送"
+  },
+  "napcat_url": {
+    "description": "NapCat地址",
+    "type": "string",
+    "default": "",
+    "hint": "如 http://127.0.0.1:5700"
+  },
+  "napcat_token": {
+    "description": "API Token",
+    "type": "string",
+    "default": "",
+    "hint": "NapCat 的 token，没设置可留空"
+  },
+  "http_fallback": {
+    "description": "HTTP回退",
+    "type": "bool",
+    "default": true,
+    "hint": "框架发送失败时用HTTP直发"
+  }
+}

@@ -1,0 +1,8 @@
+name: startup-report
+display_name: 启动报告
+desc: ldmbot 启动完成后发送启动报告，支持框架发送和 NapCat HTTP API 直发双通道
+version: v1.1.0
+author: 纳西妲
+repo: https://github.com/landamao/ldmpl_startup_report
+support_platforms:
+  - aiocqhttp
