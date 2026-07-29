@@ -39,7 +39,11 @@
 
 ## 安装
 
-将插件放入 ldmbot 的 `data/plugins/` 目录下，重启 ldmbot 即可。
+1. 打开 ldmbot WebUI → 插件 → ldm 插件
+2. 点击右下角 ➕ 号 → 从链接安装
+3. 填入仓库地址：`https://github.com/landamao/ldmpl_startup_report`
+4. 点「测试代理」确认网络可达（国内网络环境需要代理）
+5. 点「安装」
 
 ## 信息
 
