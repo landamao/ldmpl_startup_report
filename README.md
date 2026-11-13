@@ -49,7 +49,7 @@
 
 ## 信息
 
-- **作者**: 纳西妲
+- **作者**: 懒大猫
 - **版本**: v1.1.0
 - **仓库**: https://github.com/landamao/ldmpl_startup_report
 - **适用平台**: aiocqhttp (OneBot)
